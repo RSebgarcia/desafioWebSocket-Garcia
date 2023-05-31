@@ -1,0 +1,30 @@
+[
+	{
+		"title": "Pantalon",
+		"description": "Pantalon de algodón",
+		"code": "abc",
+		"price": 220,
+		"status": true,
+		"stock": 10,
+		"category": "Ropa",
+		"thumbnails": [
+			"ruta/imagen1.jpg",
+			"ruta/imagen2.jpg"
+		],
+		"id": 1
+	},
+	{
+		"title": "Pantalones",
+		"description": "Pantalon de algodón",
+		"code": "abcs",
+		"price": 220,
+		"status": true,
+		"stock": 10,
+		"category": "Ropa",
+		"thumbnails": [
+			"ruta/imagen1.jpg",
+			"ruta/imagen2.jpg"
+		],
+		"id": 2
+	}
+]
