@@ -1,13 +1,15 @@
 import express from 'express';
 import viewsRouter from './routes/views.router.js';
-import { dirname } from 'path';
+import __dirname from './utils.js';
 import { fileURLToPath } from 'url';
 import exphbs from 'express-handlebars';
 import { Server } from 'socket.io';
 import fs from 'fs'
 
+
+
 const app = express();
-const __dirname = dirname(fileURLToPath(import.meta.url));
+
 
 // Handlebars setup
 const hbs = exphbs.create({
@@ -27,11 +29,8 @@ app.use(express.static(`${__dirname}/public`));
 // Endpoints
 app.use('/', viewsRouter);
 
-app.get("/realtimeproducts", (req, res) => {
-    
 
-    res.render("realTimeProducts", { products });
-});
+
 
 const server = app.listen(8080, () => console.log('Server is running on port 8080'));
 

@@ -20,7 +20,7 @@
 		"price": 220,
 		"status": true,
 		"stock": 10,
-		"category": "Ropa",
+		"category": "rope",
 		"thumbnails": [
 			"ruta/imagen1.jpg",
 			"ruta/imagen2.jpg"
